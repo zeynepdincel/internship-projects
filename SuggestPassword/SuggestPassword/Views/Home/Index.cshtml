@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="StyleSheet.css" />
+    <style>
+        .div {
+            background-color: beige;
+            width: 300px;
+            height: auto;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        input[type="email"], input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        .password-suggestion-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        #password {
+            padding: 8px;
+            margin: 10px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .copy-btn {
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+            .copy-btn:hover {
+                background-color: #45a049;
+            }
+    </style>
+</head>
+<body>
+    <div class="div">
+        <label for="email">E-mail:</label>
+        <input type="email" name="mail" id="email" /> <br />
+
+        <label for="password">Password:</label>
+        <input type="password" name="pass" id="password" /> <br />
+
+        <div class="password-suggestion-container">
+            <label for="suggested-password">Önerilen Şifre:</label>
+            <input type="text" id="suggested-password" value="@ViewData["password"]" readonly>
+            <button class="copy-btn" onclick="copyPassword()">Kopyala</button>
+        </div>
+    </div>
+
+    <script>
+        function copyPassword() {
+            var copyText = document.getElementById("suggested-password");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // Mobil cihazlarda da çalışması için
+
+            document.execCommand("copy");
+            alert("Şifre kopyalandı: " + copyText.value);
+        }
+    </script>
+</body>
+</html>
