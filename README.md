@@ -4,3 +4,4 @@ This repository contains code fragments written in c# and adapted versions of th
 [2. Suggest Password](https://github.com/zeynepdincel/internship-projects/tree/main/SuggestPassword)  
 [3. Number Guess](https://github.com/zeynepdincel/internship-projects/tree/main/Number%20Guess)  
 [4. Stock Tracking System](https://github.com/zeynepdincel/internship-projects/tree/main/Stock%20Tracking%20System)
+[5. Notepad](https://github.com/zeynepdincel/internship-projects/tree/main/Notepad)
