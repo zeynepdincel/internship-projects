@@ -3,4 +3,4 @@ Exchange Rate API is a console application that requests foreign currency inform
 and converts foreign currency by pulling current exchange rate information from the API.
 
 ## File Structure  
-`Exchange Rate API.sln:` is the c# file where the game codes are written.
+`Program.cs:` is the c# file where the game codes are written.
