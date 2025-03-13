@@ -5,4 +5,4 @@ The user is asked to enter a number in a certain range.
 This number is compared with the generated number and a new guess is requested.
 
 ## File Structure
-`Number Guess.sln`: is the c# file where the game codes are written.
+`Program.cs:` is the c# file where the game codes are written.
