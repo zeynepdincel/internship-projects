@@ -7,7 +7,9 @@ This repository contains code fragments written in c#.
 [5. Notepad](https://github.com/zeynepdincel/internship-projects/tree/main/Notepad)  
 [6. Exchange Rate API](https://github.com/zeynepdincel/internship-projects/tree/main/Exchange%20Rate%20API)  
 [7. User Management System](https://github.com/zeynepdincel/internship-projects/tree/main/user%20management%20system)  
-[8. Task Management ](https://github.com/zeynepdincel/internship-projects/tree/main/Task%20Management)  
+[8. Task Management ](https://github.com/zeynepdincel/internship-projects/tree/main/Task%20Management)   
+[9. Library Management System ](https://github.com/zeynepdincel/internship-projects/tree/main/Library%20Management%20System)  
+
 
 # Overview  
 The above projects are simplified projects written in c# that I made for self-development.  
