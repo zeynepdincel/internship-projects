@@ -12,7 +12,7 @@ namespace Weather_Forecast
 {
     internal class Program
     {
-        public static string ApiKey = "4b800ee22a20978f7904a050dfb12be9";
+        public static string ApiKey = "ApiKey";//left blank for security purposes. You can add your own API key.
         public static string favCityFile = "favorites.txt";
 
         public static async Task Main(string[] args) 
