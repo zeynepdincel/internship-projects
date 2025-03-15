@@ -78,7 +78,7 @@ class Program
 
     static async Task<double> GetExchangeRate(string fromCurrency, string toCurrency)
     {
-        string apiKey = "2026e2c492a22e67ce879bfd"; 
+        string apiKey = "API key";//left blank for security purposes. You can add your own API key. 
         string url = $"https://v6.exchangerate-api.com/v6/{apiKey}/latest/{fromCurrency}";
 
         using (HttpClient client = new HttpClient())
